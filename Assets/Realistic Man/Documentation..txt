@@ -1,0 +1,13 @@
+Documentation.
+
+Thanks for Buying Realistic Male from the Asset Store.
+You can see 2 Prefabs, one is optimized deleting the body that you can't see because is covered by his cloth. This reduces the number of polygons and makes it lighter, some bones are deleted in the optimized mesh for best performance.
+To remove the hair, clothes and more just unpack the Prefab before.
+It's highly recommended that you use unity post processing for more realistic results like the screenshots.
+
+Free Skybox from PolyHaven. Thanks to:
+Dimitrios Savva
+Photography
+
+Greg Zaal
+Processing
