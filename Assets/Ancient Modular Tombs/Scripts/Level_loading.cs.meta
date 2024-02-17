@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 56698b5d801f94346853731959b9d46c
+timeCreated: 1471379908
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 69718
+  packageName: Egyptian Tombs with Pyramid
+  packageVersion: 2.1
+  assetPath: Assets/Ancient Modular Tombs/Scripts/Level_loading.cs
+  uploadId: 448169
