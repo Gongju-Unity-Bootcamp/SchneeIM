@@ -14,6 +14,6 @@ public class AutoSceneSwitcher : MonoBehaviour
     private void LoadNextScene()
     {
         // 다음 씬을 로드합니다. 씬 이름을 수정하세요.
-        SceneManager.LoadScene("Anubis1");
+        SceneManager.LoadScene(2);
     }
 }
