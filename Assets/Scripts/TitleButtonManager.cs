@@ -42,7 +42,7 @@ public class TitleButtonManager : MonoBehaviour
     // 씬을 전환하는 메서드입니다.
     public void ChangeScene()
     {
-        SceneManager.LoadScene("Hospital");
+        SceneManager.LoadScene(1);
         Debug.Log("Hospital를 클릭했습니다. 씬을 전환합니다.");
     }
 
