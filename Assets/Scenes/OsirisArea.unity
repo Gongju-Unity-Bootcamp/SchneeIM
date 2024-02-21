@@ -2208,8 +2208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ad32637ffb3b14ea3ebdbd19a191f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OsirisArea_2: 1
-  OsirisArea_3: 0
 --- !u!850595691 &1148479337
 LightingSettings:
   m_ObjectHideFlags: 0
