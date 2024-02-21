@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/1_Hospital.unity
     guid: 0e2cd6292c7ac0442bab9c504bf6b783
   - enabled: 1
-    path: Assets/Scenes/2_Anubis1.unity
+    path: Assets/Scenes/2_2 Anubis1 GameOver.unity
     guid: aca0f29d1ba089a4bacaa710686725bf
   - enabled: 0
     path: Assets/Scenes/8_AwakeningEnding.unity

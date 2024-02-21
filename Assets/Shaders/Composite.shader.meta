@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 9be4ceea0147eb24fae365196d42254b
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Shaders/Composite.shader
+  uploadId: 130319

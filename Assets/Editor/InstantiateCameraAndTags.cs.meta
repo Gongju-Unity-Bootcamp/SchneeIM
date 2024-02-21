@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c0d782b48c6c28c48a19687ac8660832
+timeCreated: 1465895037
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Editor/InstantiateCameraAndTags.cs
+  uploadId: 130319

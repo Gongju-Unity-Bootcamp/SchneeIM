@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 580f409d659319b4588c2f6495e1264b
+timeCreated: 1463573268
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Editor/MenuLogic.cs
+  uploadId: 130319

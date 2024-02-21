@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2560206d96f4a0149a0480801e79d653
+timeCreated: 1466539046
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Resources/Materials/wood.mat
+  uploadId: 130319

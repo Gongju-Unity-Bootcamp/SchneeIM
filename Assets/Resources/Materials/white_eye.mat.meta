@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3955f8ded986c424cb89d92bcb466f6e
+timeCreated: 1462970927
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Resources/Materials/white_eye.mat
+  uploadId: 130319

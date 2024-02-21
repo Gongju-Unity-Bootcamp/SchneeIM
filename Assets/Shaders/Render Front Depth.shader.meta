@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 421066edce8e7054ebf3ef0b41a1d22b
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Shaders/Render Front Depth.shader
+  uploadId: 130319

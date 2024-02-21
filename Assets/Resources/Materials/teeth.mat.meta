@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76cb2425af5a4ef4592eb739f5cad721
+timeCreated: 1462970927
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Resources/Materials/teeth.mat
+  uploadId: 130319

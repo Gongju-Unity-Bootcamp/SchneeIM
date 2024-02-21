@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1495e28ef35822f429854de3a53d1bd4
+timeCreated: 1466061003
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Resources/Materials/bark_0021.mat
+  uploadId: 130319
