@@ -2144,7 +2144,11 @@ PlayableDirector:
   - key: {fileID: 2507531999474333061, guid: 1e6342625acbd62429b0eddbd84829ed, type: 2}
     value: {fileID: 590355487}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 35a401eeb53c2cd4b8fd72ee506ec280: {fileID: 917662670}
+    - 1897c303c07676642a3cc477fdd4038b: {fileID: 917662670}
+    - 56f5f38adbc8b00499898d9efbf534bd: {fileID: 917662670}
+    - 32fade683a28f744eb2411660cb36e3c: {fileID: 917662670}
 --- !u!4 &901998658
 Transform:
   m_ObjectHideFlags: 0
@@ -2160,6 +2164,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &917662670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 917662672}
+  - component: {fileID: 917662673}
+  m_Layer: 0
+  m_Name: SceneManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &917662672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917662670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 136.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917662673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917662670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ad32637ffb3b14ea3ebdbd19a191f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OsirisArea_2: 1
+  OsirisArea_3: 0
 --- !u!850595691 &1148479337
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -2399,9 +2449,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Q. \uB098\uC758 \uC8FD\uC74C \xB7 \uBD80\uD65C \uBAA8\uD2F0\uBE0C\uAC00
-    \uC124\uBA85\uD558\uB294 \uBC14\uB294 \uBB34\uC5C7\uC778\uAC00?\n\n1. \uB0AE\uACFC
+    \uC124\uBA85\uD558\uB294 \uBC14\uB294 \uBB34\uC5C7\uC778\uAC00?\n1. \uB0AE\uACFC
     \uBC24\uC758 \uAD50\uB300 \t\t2. \uBC14\uB2E4\uC758 \uC870\uC218\xB7\uAC04\uC218\t\t3.
-    \uC2DD\uBB3C\uC758 \uC8FD\uC74C\uACFC \uD0C4\uC0DD \n"
+    \uC2DD\uBB3C\uC758 \uC8FD\uC74C\uACFC \uD0C4\uC0DD "
 --- !u!222 &1199638724
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57135,3 +57185,4 @@ SceneRoots:
   - {fileID: 1241597071}
   - {fileID: 901998658}
   - {fileID: 590355488}
+  - {fileID: 917662672}
