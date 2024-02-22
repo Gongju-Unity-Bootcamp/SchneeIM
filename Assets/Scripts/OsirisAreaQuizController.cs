@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,5 +32,13 @@ public class OsirisAreaQuizController : MonoBehaviour
     void MoveToWrongScene()
     {
         SceneManager.LoadScene("OsirisArea_3");
+        StartCoroutine(GoToIntroAfterDelay());
+    }
+
+    // 인트로 씬으로 돌아가는 코루틴
+    IEnumerator GoToIntroAfterDelay()
+    {
+        yield return new WaitForSeconds(3f); // 3초 대기
+        SceneManager.LoadScene("Intro"); // 인트로 씬으로 이동
     }
 }
