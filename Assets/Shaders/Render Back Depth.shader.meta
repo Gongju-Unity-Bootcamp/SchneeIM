@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 331e2ba5f7840c64d82d38ddea942a3c
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Shaders/Render Back Depth.shader
+  uploadId: 130319

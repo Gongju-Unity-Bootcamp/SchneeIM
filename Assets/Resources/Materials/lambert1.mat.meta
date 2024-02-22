@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb1496014006dbf45bd84b9032da375c
+timeCreated: 1462970927
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65828
+  packageName: VMC Tool - LOD Generator
+  packageVersion: 1.0
+  assetPath: Assets/Resources/Materials/lambert1.mat
+  uploadId: 130319
