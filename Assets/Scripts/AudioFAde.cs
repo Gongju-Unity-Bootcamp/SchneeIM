@@ -21,7 +21,7 @@ public class AudioFade : MonoBehaviour
         audioSource.volume = 0;
         audioSource.Play();
 
-        while (audioSource.volume < 0.3)
+        while (audioSource.volume < 0.1)
         {
             audioSource.volume += Time.deltaTime / time;
             yield return null;
