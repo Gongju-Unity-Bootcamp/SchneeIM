@@ -1,12 +1,15 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class RaAreaQuizController : MonoBehaviour
 {
-    // Å° ÀÔ·ÂÀ» È®ÀÎÇÏ´Â ÇÔ¼ö
+    private float timer = 0f;
+    private float maxTime = 10f;
+
+    // ê³ ë¥¸ ì„ ì§€ì— ë”°ë¥¸ ì”¬ ë„˜ê¸°ê¸°
     void Update()
     {
-        // Å°º¸µå ¼ıÀÚ Å° 1, 2, 3À» ´­·¶À» ¶§¸¸ µ¿ÀÛ
+        // Check for key inputs
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
             MoveToCorrectScene();
@@ -19,16 +22,31 @@ public class RaAreaQuizController : MonoBehaviour
         {
             MoveToWrongScene();
         }
+
+        // Increment the timer
+        timer += Time.deltaTime;
+
+        // Check if 10 seconds have passed
+        if (timer >= maxTime)
+        {
+            MoveToRaAreaScene();
+        }
     }
 
-    // Á¤´ä ¾ÀÀ¸·Î ÀÌµ¿ÇÏ´Â ÇÔ¼ö
+    // ì •ë‹µì„ ê³¨ëì„ ë•Œ ë™ì‘
     void MoveToCorrectScene()
     {
         SceneManager.LoadScene("RaArea_2");
     }
 
-    // ¿À´ä ¾ÀÀ¸·Î ÀÌµ¿ÇÏ´Â ÇÔ¼ö
+    // ì˜¤ë‹µì„ ê³¨ëì„ ë•Œ ë™ì‘
     void MoveToWrongScene()
+    {
+        SceneManager.LoadScene("RaArea_3");
+    }
+
+    // íƒ€ì´ë¨¸ê°€ ë§Œë£Œë˜ì—ˆì„ ë•Œ ë™ì‘
+    void MoveToRaAreaScene()
     {
         SceneManager.LoadScene("RaArea_3");
     }

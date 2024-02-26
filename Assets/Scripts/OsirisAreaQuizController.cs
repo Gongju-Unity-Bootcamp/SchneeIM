@@ -1,13 +1,15 @@
-using System.Collections;
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class OsirisAreaQuizController : MonoBehaviour
 {
-    // Å° ÀÔ·ÂÀ» È®ÀÎÇÏ´Â ÇÔ¼ö
+    private float timer = 0f;
+    private float maxTime = 10.5f;
+
+    // ê³ ë¥¸ ì„ ì§€ì— ë”°ë¥¸ ì”¬ ë„˜ê¸°ê¸°
     void Update()
     {
-        // Å°º¸µå ¼ıÀÚ Å° 1, 2, 3À» ´­·¶À» ¶§¸¸ µ¿ÀÛ
+        // Check for key inputs
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
             MoveToWrongScene();
@@ -20,25 +22,32 @@ public class OsirisAreaQuizController : MonoBehaviour
         {
             MoveToCorrectScene();
         }
+
+        // Increment the timer
+        timer += Time.deltaTime;
+
+        // Check if 10 seconds have passed
+        if (timer >= maxTime)
+        {
+            MoveToRaAreaScene();
+        }
     }
 
-    // Á¤´ä ¾ÀÀ¸·Î ÀÌµ¿ÇÏ´Â ÇÔ¼ö
+    // ì •ë‹µì„ ê³¨ëì„ ë•Œ ë™ì‘
     void MoveToCorrectScene()
     {
         SceneManager.LoadScene("OsirisArea_2");
     }
 
-    // ¿À´ä ¾ÀÀ¸·Î ÀÌµ¿ÇÏ´Â ÇÔ¼ö
+    // ì˜¤ë‹µì„ ê³¨ëì„ ë•Œ ë™ì‘
     void MoveToWrongScene()
     {
         SceneManager.LoadScene("OsirisArea_3");
-        StartCoroutine(GoToIntroAfterDelay());
     }
 
-    // ÀÎÆ®·Î ¾ÀÀ¸·Î µ¹¾Æ°¡´Â ÄÚ·çÆ¾
-    IEnumerator GoToIntroAfterDelay()
+    // íƒ€ì´ë¨¸ê°€ ë§Œë£Œë˜ì—ˆì„ ë•Œ ë™ì‘
+    void MoveToRaAreaScene()
     {
-        yield return new WaitForSeconds(3f); // 3ÃÊ ´ë±â
-        SceneManager.LoadScene("Intro"); // ÀÎÆ®·Î ¾ÀÀ¸·Î ÀÌµ¿
+        SceneManager.LoadScene("OsirisArea_3");
     }
 }
