@@ -52500,7 +52500,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Blessings of Osiris
+  m_text: 'The Blessing
+
+    Of Osiris'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7da169fa8d3d7049b3d786e72449f3d, type: 2}
   m_sharedMaterial: {fileID: 2840124761553510068, guid: d7da169fa8d3d7049b3d786e72449f3d, type: 2}

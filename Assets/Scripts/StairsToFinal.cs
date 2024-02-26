@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StairsToFinal : MonoBehaviour
+public class AnubisQuizController : MonoBehaviour
 {
-    // 키 입력을 확인하는 함수
+    private float timer = 0f;
+    private float maxTime = 10f;
+    
     void Update()
     {
-        // 키보드 숫자 키 1, 2, 3을 눌렀을 때만 동작
+        // quiz time
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
         {
             MoveToWrongScene();
@@ -19,16 +21,27 @@ public class StairsToFinal : MonoBehaviour
         {
             MoveToCorrectScene();
         }
+
+        timer += Time.deltaTime;
+        if (timer >= maxTime)
+        {
+            MoveToGameOverScene();
+        }
     }
 
-    // 정답 씬으로 이동하는 함수
+    // load succeed Scene
     void MoveToCorrectScene()
     {
         SceneManager.LoadScene("6_StairsToFinal");
     }
 
-    // 오답 씬으로 이동하는 함수
+    // load gameover scene
     void MoveToWrongScene()
+    {
+        SceneManager.LoadScene("6_2_StairsToFinal");
+    }
+
+    void MoveToGameOverScene()
     {
         SceneManager.LoadScene("6_2_StairsToFinal");
     }

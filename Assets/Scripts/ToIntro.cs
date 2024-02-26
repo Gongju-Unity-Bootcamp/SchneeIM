@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneSwitcher : MonoBehaviour
+public class ToIntro : MonoBehaviour
 {
     private float timer = 0f;
     private float switchTime = 8f;
