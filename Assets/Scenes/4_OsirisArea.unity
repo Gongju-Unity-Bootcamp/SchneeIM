@@ -21131,7 +21131,7 @@ PlayableDirector:
   - key: {fileID: 7412693950394144406, guid: 1e6342625acbd62429b0eddbd84829ed, type: 2}
     value: {fileID: 64955136}
   - key: {fileID: -8073732081765968957, guid: 1e6342625acbd62429b0eddbd84829ed, type: 2}
-    value: {fileID: 1454024691}
+    value: {fileID: 1764805702}
   m_ExposedReferences:
     m_References:
     - 9326e495df0ef0040a43fb7bf7c3543c: {fileID: 509766856}
@@ -41376,16 +41376,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440822677}
   m_Mesh: {fileID: 4300000, guid: b307edcd414c63845bb9c27b3a3dec0f, type: 3}
---- !u!1 &1454024691 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 245663583796189289, guid: a2ed3532c2861684ea019ec3b736908d, type: 3}
-  m_PrefabInstance: {fileID: 5348133447220566156}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &1454024692 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6864279195234668819, guid: a2ed3532c2861684ea019ec3b736908d, type: 3}
-  m_PrefabInstance: {fileID: 5348133447220566156}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1484677439
 GameObject:
   m_ObjectHideFlags: 0
@@ -51347,7 +51337,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718681926}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16650474, y: 0.5056076, z: -0.100150056, w: 0.84059924}
+  m_LocalRotation: {x: 0.16650474, y: 0.5056076, z: -0.10015004, w: 0.84059924}
   m_LocalPosition: {x: 50.58, y: -8.46, z: -1.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -51483,6 +51473,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1764805702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 497466080463817426, guid: a2ed3532c2861684ea019ec3b736908d, type: 3}
+  m_PrefabInstance: {fileID: 5348133447220566156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1764805703 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6970935485747090871, guid: a2ed3532c2861684ea019ec3b736908d, type: 3}
+  m_PrefabInstance: {fileID: 5348133447220566156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1773020529
 GameObject:
   m_ObjectHideFlags: 0
@@ -51582,7 +51582,7 @@ RectTransform:
   - {fileID: 1995922540}
   - {fileID: 704988831}
   - {fileID: 64955137}
-  - {fileID: 1454024692}
+  - {fileID: 1764805703}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -51905,7 +51905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964639330}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16650474, y: 0.5056076, z: -0.100150056, w: 0.84059924}
+  m_LocalRotation: {x: 0.19467618, y: -0.4081286, z: 0.08953236, w: 0.88742113}
   m_LocalPosition: {x: 50.58, y: -8.46, z: -1.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -100791,7 +100791,12 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'toe.L'\n\tTransform 'foot.R'\n\tTransform 'hand.R'\n\tTransform
+    'f_pinky.01.R'\n\tTransform 'thumb.02.R'\n\tTransform 'thumb.01.R'\n\tTransform
+    'f_middle.01.R'\n\tTransform 'thigh.R'\n\tTransform 'f_middle.03.L'\n\tTransform
+    'thumb.03.R'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
