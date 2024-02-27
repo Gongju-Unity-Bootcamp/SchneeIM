@@ -9,6 +9,7 @@ public class AudioFade : MonoBehaviour
     public float fadeInTime;
     public float fadeOutTime;
     public float delayBeforeFadeOut;
+    public float maxVolume;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class AudioFade : MonoBehaviour
         audioSource.volume = 0;
         audioSource.Play();
 
-        while (audioSource.volume < 0.3)
+        while (audioSource.volume < maxVolume)
         {
             audioSource.volume += Time.deltaTime / time;
             yield return null;
