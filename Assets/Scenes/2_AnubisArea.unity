@@ -34597,7 +34597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536056212}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12280127, y: 0.7831482, z: -0.16378741, w: 0.5871733}
+  m_LocalRotation: {x: -0.17989682, y: 0.8195182, z: -0.3672455, w: -0.40144464}
   m_LocalPosition: {x: 116.62, y: -4.02, z: 0.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -39945,7 +39945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855144651}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017878368, y: 0.8771458, z: -0.032754492, w: 0.47877216}
+  m_LocalRotation: {x: -0.012555796, y: 0.9807113, z: -0.067251176, w: -0.1830988}
   m_LocalPosition: {x: 116.43, y: -4.92, z: 1.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -55038,7 +55038,7 @@ PlayableDirector:
     value: {fileID: 1081814922}
   - key: {fileID: 1688001660031872255, guid: 3df7fcda19c201b4797eb37a7e563a4d, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 405299408532833610, guid: 3df7fcda19c201b4797eb37a7e563a4d, type: 2}
+  - key: {fileID: 3710052143451117879, guid: 3df7fcda19c201b4797eb37a7e563a4d, type: 2}
     value: {fileID: 1505267347}
   m_ExposedReferences:
     m_References:
@@ -100945,7 +100945,12 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'toe.L'\n\tTransform 'foot.R'\n\tTransform 'hand.R'\n\tTransform
+    'f_pinky.01.R'\n\tTransform 'thumb.02.R'\n\tTransform 'thumb.01.R'\n\tTransform
+    'f_middle.01.R'\n\tTransform 'thigh.R'\n\tTransform 'f_middle.03.L'\n\tTransform
+    'thumb.03.R'\n\tand more ..."
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
